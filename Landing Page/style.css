@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    height: 60px;
+    /* background-color: red; */
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+.topright img{
+    height: 466px;
+}
+.dumbell{
+    width: 7vw;
+    margin: 0 8vw;
+}
+.section2{
+    padding: 73px;
+}
+.section2 h1{
+    font-size: 3rem;
+}
+@media (max-width:850px) {
+    body{
+        background-color: red;
+    }
+    .text{
+        font-size: 1rem;
+    }
+    .topright img{
+        height: 305px;
+    padding-left: -2vw;
+    margin-right: -10vw;
+    }
+}
+.box{
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(227, 74, 56);
+    text-align: center;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px;
+}
+.highlight{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.section1 h1{
+    color: #e24938;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.plantable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+
+}
+.section3 table th{
+    width: 15vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
